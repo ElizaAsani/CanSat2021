@@ -23,7 +23,9 @@ void loop() {
   
     delay(50);               
    
-    digitalWrite(cameraPin, HIGH);      
+    digitalWrite(cameraPin, HIGH);   
+    
+    pictureDelayStart = millis();
   }
  
   
